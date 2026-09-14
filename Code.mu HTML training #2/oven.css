@@ -1,0 +1,35 @@
+p {
+    color: darkorange;
+    font-family: "Comic Sans MS";
+}
+
+h1{
+    color: green;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+h3{
+    color: darkred;
+}
+
+ul{
+    color: rgb(148,100, 56);
+}
+
+ol{
+    color: #9102af;
+}
+
+td {
+    width: 400px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}

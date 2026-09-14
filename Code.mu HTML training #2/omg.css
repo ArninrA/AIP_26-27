@@ -1,0 +1,29 @@
+h1{
+    text-align: right;
+}
+
+h2 {
+    width: 300px;
+    text-align: center;
+}
+
+td{
+    width: 500px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    line-height: 1,5;
+    text-indent: 100px;
+    text-decoration: underline;
+}
+
