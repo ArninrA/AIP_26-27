@@ -1,0 +1,27 @@
+ul li i {color: red;}
+p i { color: green;}
+
+.odd {
+    color: red;
+}
+
+.eve{color:green}
+
+.eee{color: red}
+
+.xxx{font-size: 30px}
+
+.eee, .eve {line-height: 1.5; font-family: Arial}
+.Block1 {
+    color: red
+}
+
+.Block2 {color: green}
+
+.Block3 {color: blue}
+
+.header{color:red;}
+
+h2.header{font-size: 40px;}
+
+h3.header{font-size: 30px;}
