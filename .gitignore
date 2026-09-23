@@ -1,0 +1,41 @@
+Делаешь в той же папки файл .gitignore и вставляешь в него текст 
+# Зависимости
+node_modules/
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Сборка и кэш
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.vite/
+.turbo/
+*.tsbuildinfo
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Тесты и покрытие
+coverage/
+.nyc_output/
+
+# Редакторы и ОС
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

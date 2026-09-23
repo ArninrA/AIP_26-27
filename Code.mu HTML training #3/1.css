@@ -16,6 +16,8 @@ p i { color: green;}
     color: red
 }
 
+.eee.eve {text-align: right}
+
 .Block2 {color: green}
 
 .Block3 {color: blue}
@@ -25,3 +27,9 @@ p i { color: green;}
 h2.header{font-size: 40px;}
 
 h3.header{font-size: 30px;}
+
+#elem1 {color: red}
+
+#elem2{color:blue}
+
+#elem3{color: green}
