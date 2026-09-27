@@ -1,0 +1,62 @@
+#elem ~ li{
+    color: palevioletred;
+}
+
+main * p {
+    color: darkblue;
+}
+
+input[type="number"]{
+    background-image: url(gnome.jpg);
+}
+
+input[type="text"] {
+    background-color: paleturquoise;
+}
+
+input[type] {
+    color: darkred;
+    caret-color: red;
+}
+
+a[href^="https^//"]{
+    color: green;
+}
+
+a[href^="https^//"]:visited {
+    color: lightseagreen;
+}
+a[href^="https://"]:hover {
+    color: green;
+}
+a[href$=".html"]:visited{
+    color:red;
+}
+
+a[href*="test"] {
+    color: mediumpurple;
+}
+
+p[class~="test"] {
+    color: blue;
+}
+
+p[class|="text"] {
+    color: red;
+}
+
+li:last-child{color:deeppink}
+li:first-child{color:bisque}
+li:nth-child(4) {
+    color: red;
+}
+li:only-child {
+    color: red;
+}
+
+#elem:last-child {
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: orange;
+}
