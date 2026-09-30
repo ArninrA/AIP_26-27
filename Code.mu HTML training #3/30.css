@@ -19,7 +19,7 @@ input[type] {
     caret-color: red;
 }
 
-a[href^="https^//"]{
+a[href^="https://"]{
     color: green;
 }
 

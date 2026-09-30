@@ -1,4 +1,4 @@
-"use strict"
+п»ї"use strict"
 let num = "aaaanddddd rooooollllll";
 let eee = "!!!!!!!!!!!!!!!!!!"
 alert(`!!! ${num} 
@@ -21,18 +21,18 @@ alert(num[4])
 let aa = 0.2
 let bb = 0.3
 alert((aa + bb).toFixed(3))
-let name = prompt('Ваше имя?');
-alert('Ваше имя: ' + name);
-let num1 = prompt('Введите первое число');
-let num2 = prompt('Введите второе число');
+let name = prompt('Р’Р°С€Рµ РёРјСЏ?');
+alert('Р’Р°С€Рµ РёРјСЏ: ' + name);
+let num1 = prompt('Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ');
+let num2 = prompt('Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ');
 
 alert(+num1 + +num2);
 document.write('<i>text</i> <br> <b>text</b>');
-let r = prompt("радиус круга = ");
+let r = prompt("СЂР°РґРёСѓСЃ РєСЂСѓРіР° = ");
 const PI = 3.14;
 let p = 2 * PI * r;
-document.write("<p>Площадь <b>круга</b> = </p>" + (PI * +r * +r).toFixed(3));
-document.write(("<p>Периметр <b>круга</b> = </p>") + p);
+document.write("<p>РџР»РѕС‰Р°РґСЊ <b>РєСЂСѓРіР°</b> = </p>" + (PI * +r * +r).toFixed(3));
+document.write(("<p>РџРµСЂРёРјРµС‚СЂ <b>РєСЂСѓРіР°</b> = </p>") + p);
 
 
 
