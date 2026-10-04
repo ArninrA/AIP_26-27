@@ -1,0 +1,130 @@
+#elem ~ li{
+    color: palevioletred;
+}
+ul{
+    list-style-type: arabic-indic;
+}
+ol{
+    list-style-type: upper-roman;
+}
+
+main * p {
+    color: darkblue;
+}
+
+input[type="number"]{
+    background-image: url(gnome.jpg);
+}
+
+input[type="text"] {
+    background-color: paleturquoise;
+}
+
+input[type] {
+    color: darkred;
+    caret-color: red;
+}
+
+a[href^="https://"]{
+    color: green;
+}
+
+a[href^="https^//"]:visited {
+    color: lightseagreen;
+}
+a[href^="https://"]:hover {
+    color: green;
+}
+a[href$=".html"]:visited{
+    color:red;
+}
+
+a[href*="test"] {
+    color: mediumpurple;
+}
+
+p[class~="test"] {
+    color: blue;
+}
+
+p[class|="text"] {
+    color: red;
+}
+
+li:last-child{color:deeppink}
+li:first-child{color:bisque}
+li:nth-child(4) {
+    color: red;
+}
+li:only-child {
+    color: red;
+}
+
+#elem:last-child {
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-color: orange;
+    border-radius: 45% 150px 100px 15%;
+}
+
+#elem {
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkblue;
+    width: 300px;
+    height: 500px;
+    background-image: url(gnome.jpg);
+    background-repeat: repeat-y;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center
+}
+
+#lorem {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+    height: 300px;
+    width: 50px;
+    border-radius: 9px;
+}
+
+    #lorem #ipsum {
+        border-width: 5px;
+        border-style: dashed;
+        border-color: darkorange;
+        height: 100px;
+        width: 77px;
+    }
+
+#ipsum {
+    border: 3px ridge darkmagenta;
+    border-right: 13px double purple;
+    height: 333px;
+    width: 58px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+html{
+    background-image: url(sun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 300px;
+    background-color: antiquewhite;
+}
+
+#parent {
+    width: 300px;
+    border: 1px solid red;
+}
+
+#child {
+    height: 100px;
+    border: 1px solid green;
+    margin: 70px;
+    margin-top: 10px;
+    border-top: dashed 3px red;
+}
