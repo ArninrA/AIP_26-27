@@ -1,0 +1,87 @@
+#parent {
+    width: 300px;
+    border: 1px solid red;
+}
+
+#child {
+    height: 100px;
+    border: 1px solid green;
+    margin: 30px 20px 8px 7px;
+}
+
+#elem {
+    padding: 30px 20px;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium';
+    height: 130px;
+    width: 500px;
+    text-align: justify;
+    border: dashed red 1px;
+}
+#elem1 {
+    padding: 30px 20px;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium';
+    height: 130px;
+    width: 500px;
+    text-align: justify;
+    border: dashed red 10px;
+    box-sizing: border-box;
+}
+
+span {
+    color:darkmagenta;
+    border:double 7px;
+}
+b{
+    border: 3px magenta dashed;
+    display: block;
+    margin: 10px;
+    width: 3px;
+}
+
+a{
+    display: inline-block;
+    border: 5px dotted indigo;
+    height: 50px;
+}
+
+#elem2{
+    border:groove 10px red;
+    display:inline-block;
+    height: 444px;
+}
+
+#elem3{
+    border:double 5px blue;
+    width:300px;
+    height:100px;
+    margin:auto 20px;
+    margin-top: auto;
+}
+.parent {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+.child {
+    border: 1px solid green;
+}
+
+.parent1 {
+    display: flex; /* потомки будут флекс элементами */
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+
+.child1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    
+}
