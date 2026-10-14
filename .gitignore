@@ -27,6 +27,9 @@ build/
 .env
 .env.local
 .env.*.local
+*.exe
+*.zip
+
 
 # Тесты и покрытие
 coverage/
