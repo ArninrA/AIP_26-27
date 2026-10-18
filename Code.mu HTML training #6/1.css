@@ -1,0 +1,259 @@
+﻿div {
+    width: 400px;
+    text-align: justify;
+}
+
+#elem1, #elem2, #elem3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#elem1 {
+    background-color: #FF8888;
+    left: 30px;
+    top: 30px;
+}
+
+#elem2 {
+    background-color: #7E89EB;
+    left: 60px;
+    top: 60px;
+    z-index: -1;
+}
+
+#elem3 {
+    background-color: #4DEE99;
+    left: 90px;
+    top: 90px;
+}
+
+#elem1 {
+    position: relative;
+    top: 80px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #FF8888;
+}
+
+#elem2 {
+    position: relative;
+    top: 40px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #7E89EB;
+}
+
+#elem3 {
+    position: relative;
+    left: 160px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #4DEE99;
+}
+
+#parent {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+#child {
+    border: 1px solid red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+#parent {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #4DEE99;
+}
+
+#child {
+    background-color: #fff;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#child1 {
+    background-color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#parent {
+    position: relative;
+    width: 200px;
+    height: 430px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#child {
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#child1 {
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#child2 {
+    border: 1px solid black;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 270px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#parent {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+
+#child1 {
+    position: absolute;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+}
+
+#child2 {
+    position: absolute;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#elem {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;
+    border: 1px solid green;
+}
+
+#elem {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    bottom: 50px;
+    left: 10px;
+    border: 1px solid green;
+}
+
+#parent {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+#child1 {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+#child2 {
+    position: absolute;
+    right: -50px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+#parent {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid green;
+    text-align: justify;
+}
+
+#child1 {
+    position: fixed;
+    left: 200px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+#child2 {
+    position: fixed;
+    right: 200px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+#news {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #C4CD14;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    border-bottom: 1px solid #A3AA11;
+}
+
+#text {
+    width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    border: 1px solid #C4CD14;
+}
