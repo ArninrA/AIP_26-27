@@ -1,0 +1,87 @@
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 333px;
+    height: 222px;
+    border: 2px solid blue;
+}
+
+.child {
+    width: 33px;
+    height: 33px;
+    border: 3px dashed blue;
+}
+
+.parent1 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 333px;
+    height: 222px;
+    border: 2px solid blue;
+}
+
+.parent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 333px;
+    height: 222px;
+    border: 2px solid blue;
+}
+.parent3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    height: 222px;
+    border: 2px solid blue;
+}
+.child1 {
+    height: 55px;
+    border: 3px double red;
+}
+.parent4 .child1 {
+    width: 55px;
+    height: auto;
+    border: 3px double red;
+}
+.parent4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 333px;
+    height: 222px;
+    border: 2px solid blue;
+}
+.parent5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 333px;
+    height: 222px;
+    border: 2px solid blue;
+}
+.parent6 {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 5px solid red;
+}
+.elem {
+    align-self: flex-start;
+}
+.parent7 {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 5px solid red;
+}
+.parent7 .elem {
+    order: -1;
+    border: 3px double indigo;
+    align-self: center;
+}
