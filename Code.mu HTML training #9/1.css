@@ -1,0 +1,195 @@
+#parent {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+#parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#parent1 {
+    display: grid;
+    grid-template-columns: 50px 100px 200px 250px;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+    #parent1 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent2 {
+    display: grid;
+    grid-template-columns: 50px 100px 200px 50px 50px 250px 50px;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+    #parent2 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent3 {
+    display: grid;
+    grid-template-columns: 0.77fr 1.33fr 70%;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+    #parent3 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) repeat(3, 2fr);
+}
+
+#parent4 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#parent5 {
+    display: grid;
+    border: 2px solid red;
+    width: 700px;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 10px;
+}
+
+    #parent5 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent6 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+    #parent6 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent7 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+    #parent7 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent8 {
+    display: grid;
+    grid-template-rows: 50px 100px 50px 50px;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+}
+
+    #parent8 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent9 {
+    display: grid;
+    grid-template: 1fr 1fr 3fr / 1fr 2fr 0.5fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+    #parent9 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#parent10 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #696989;
+    gap: 15px;
+}
+
+    #parent10 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#elem1 {
+    grid-row: 1 / 3; 
+}
+
+#elem2 {
+    grid-column: 3 / 4;
+}
+
+#elem3 {
+    grid-row: 2 / 3;
+}
+
+#parent11 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+    #parent11 > div {
+        padding: 10px;
+        border: 1px solid #696989;
+    }
+
+#elem11 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
+
+#elem21 {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+}
+
+#elem31 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+}
+
+#elem41 {
+    grid-row: 3 / 3;
+    grid-column: 2 / 4;
+}
+
+#elem51 {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+}
