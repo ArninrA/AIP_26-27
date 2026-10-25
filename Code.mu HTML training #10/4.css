@@ -1,0 +1,63 @@
+
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: indigo;
+    border: 1px solid #1437AD;
+    background-color: gold;
+}
+
+    #menu a:hover, #menu a.active, #menu a:checked {
+        color: gold;
+        border: 1px solid blue;
+        background-color: mediumvioletred;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+#header {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#container {
+    display: flex;
+}
+
+#content {
+    width: 660px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#left {
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#right {
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#footer {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}

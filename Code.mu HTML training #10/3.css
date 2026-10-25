@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin-bottom: 30px;
+}
+
+    .wrapper.line {
+        background-color: indigo;
+        color: white;
+    }
+
+.center {
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wrapper h1 {
+    margin: 0;
+    font: 40px "Times New Roman";
+}
+
+.wrapper h2 {
+    margin: 0;
+    font: 25px "Times New Roman";
+}
+
+.wrapper p {
+    font: 16px/1.4 Arial;
+    text-align: justify;
+}
+
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: indigo;
+    border: 1px solid #1437AD;
+    background-color: gold;
+}
+
+    #menu a:hover, #menu a.active, #menu a:checked {
+        color: gold;
+        border: 1px solid blue;
+        background-color: mediumvioletred;
+    }
