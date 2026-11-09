@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: gray;
+    padding: 20px;
+}
+
+body h1 {
+    color: lightgreen;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: lightgreen;
+    margin: 0 0 15px;
+}
+
+    .price span {
+        font-size: 14px;
+        font-weight: normal;
+        color: lawngreen;
+    }
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.card li {
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+    color: aquamarine
+}
+
+.button {
+    display: block;
+    padding: 10px;
+    background: white;
+    color: darkslategrey;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+    .button:hover {
+        background: green;
+    }
